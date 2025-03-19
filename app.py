@@ -9,7 +9,14 @@ recipes = {
         "name": "Midnight Ramen",
         "ingredients": ["instant ramen", "egg", "green onions", "hot sauce"],
         "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
+    },
+    # Add this to the recipes dictionary by Ifa
+    "banana-smoothie": {
+        "name": "Banana Smoothie",
+        "ingredients": ["1 banana", "1 cup milk", "2 tbsp honey", "ice cubes"],
+        "instructions": "1. Add ingredients to blender\n2. Blend until smooth\n3. Enjoy!"
     }
+    
 }
 # HTML Templates as strings
 # Instead of using separate template files, this app uses template strings with Flask's render_template_string
