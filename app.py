@@ -9,9 +9,7 @@ recipes = {
         "name": "Midnight Ramen",
         "ingredients": ["instant ramen", "egg", "green onions", "hot sauce"],
         "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
-    }
-}
-{
+    },
     "easy-grilled-cheese": {
         "name": "Easy Grilled Cheese",
         "ingredients": ["white bread", "muenster cheese", "butter"],
