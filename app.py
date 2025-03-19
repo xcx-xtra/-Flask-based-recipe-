@@ -12,11 +12,11 @@ recipes = {
     }
 }
 {
-        "easy-grilled-cheese": {
-            "name": "Easy Grilled Cheese",
-            "ingredients": ["white bread", "muenster cheese", "butter"],
-            "instructions": "1. Add butter to heated pan\n2. Place two slices of bread in melted butter\n3. Add one slice of cheese to each slice of bread\n"
-            "4. Wait for cheese to melt on each slice of bread\n5. Place both slices together and serve!"
+    "easy-grilled-cheese": {
+        "name": "Easy Grilled Cheese",
+        "ingredients": ["white bread", "muenster cheese", "butter"],
+        "instructions": "1. Add butter to heated pan\n2. Place two slices of bread in melted butter\n3. Add one slice of cheese to each slice of bread\n"
+        "4. Wait for cheese to melt on each slice of bread\n5. Place both slices together and serve!"
         }
     }
 # HTML Templates as strings
