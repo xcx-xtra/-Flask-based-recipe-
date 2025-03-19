@@ -74,11 +74,14 @@ base_template_start = '''
     </style>
 </head>
 <body>
+    # Partner 2 changes this in the base_template
     <header>
-        <h1>Recipe Collection</h1>
+        <h1>Recipe Cookbook</h1>
         <nav>
             <a href="{{ url_for('index') }}">Home</a>
             <a href="{{ url_for('add_recipe') }}">Add Recipe</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
     
