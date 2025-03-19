@@ -11,6 +11,14 @@ recipes = {
         "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
     }
 }
+{
+        "easy-grilled-cheese": {
+            "name": "Easy Grilled Cheese",
+            "ingredients": ["white bread", "muenster cheese", "butter"],
+            "instructions": "1. Add butter to heated pan\n2. Place two slices of bread in melted butter\n3. Add one slice of cheese to each slice of bread\n"
+            "4. Wait for cheese to melt on each slice of bread\n5. Place both slices together and serve!"
+        }
+    }
 # HTML Templates as strings
 # Instead of using separate template files, this app uses template strings with Flask's render_template_string
 # The base_template_start contains the opening HTML, head, styles, and beginning of the body
