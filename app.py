@@ -11,6 +11,14 @@ recipes = {
         "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
     }
 }
+{
+        "easy-grilled-cheese": {
+            "name": "Easy Grilled Cheese",
+            "ingredients": ["white bread", "muenster cheese", "butter"],
+            "instructions": "1. Add butter to heated pan\n2. Place two slices of bread in melted butter\n3. Add one slice of cheese to each slice of bread\n"
+            "4. Wait for cheese to melt on each slice of bread\n5. Place both slices together and serve!"
+        }
+    }
 # HTML Templates as strings
 # Instead of using separate template files, this app uses template strings with Flask's render_template_string
 # The base_template_start contains the opening HTML, head, styles, and beginning of the body
@@ -27,16 +35,20 @@ base_template_start = '''
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            background-color: #f9f9f9;
         }
         header {
             margin-bottom: 20px;
             border-bottom: 1px solid #ddd;
             padding-bottom: 10px;
+            background-color: #4a6fa5;
+            color: white;
+            padding: 15px
         }
         nav a {
             margin-right: 15px;
             text-decoration: none;
-            color: #0066cc;
+            color: #e6f0ff;
         }
         .recipe-grid {
             display: grid;
@@ -49,6 +61,8 @@ base_template_start = '''
             border-radius: 5px;
             padding: 15px;
             text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         form div {
             margin-bottom: 15px;
@@ -64,7 +78,7 @@ base_template_start = '''
             border-radius: 4px;
         }
         button {
-            background-color: #0066cc;
+            background-color: #4a6fa5;
             color: white;
             border: none;
             padding: 10px 15px;
