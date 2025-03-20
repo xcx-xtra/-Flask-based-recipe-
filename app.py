@@ -8,15 +8,13 @@ recipes = {
     "midnight-ramen": {
         "name": "Midnight Ramen",
         "ingredients": ["instant ramen", "egg", "green onions", "hot sauce"],
-        "instructions": "1. Boil water\n2. Cook noodles\n3. Add toppings"
-    }
-}
-{
+        "instructions": "1. Boil water | 2. Cook noodles | 3. Add toppings"
+    },
     "easy-grilled-cheese": {
         "name": "Easy Grilled Cheese",
         "ingredients": ["white bread", "muenster cheese", "butter"],
-        "instructions": "1. Add butter to heated pan\n2. Place two slices of bread in melted butter\n3. Add one slice of cheese to each slice of bread\n"
-        "4. Wait for cheese to melt on each slice of bread\n5. Place both slices together and serve!"
+        "instructions": "1. Add butter to heated pan | 2. Place two slices of bread in melted butter | 3. Add one slice of cheese to each slice of bread"
+         "| 4. Wait for cheese to melt on each slice of bread | 5. Place both slices together and serve!"
         }
     }
 # HTML Templates as strings
